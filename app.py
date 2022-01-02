@@ -1,8 +1,10 @@
+import sys
+import PyQt5.sip
 from src.calculator import Calculator
 from src.exceptions import *
 from PyQt5 import QtWidgets
 from src.mainwindow import Ui_MainWindow
-import sys
+
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self) -> None:
